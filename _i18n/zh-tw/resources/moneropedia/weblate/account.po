@@ -20,13 +20,13 @@ msgstr ""
 #: ../_i18n/en/resources/moneropedia/account.md:1
 #, no-wrap
 msgid "similar in function to a bank account, contains all of your sent and received transactions"
-msgstr ""
+msgstr "其功能類似於銀行帳戶，用於保存並記錄所有已發送與已接收的交易"
 
 #. type: YAML Front Matter: terms
 #: ../_i18n/en/resources/moneropedia/account.md:1
 #, no-wrap
 msgid "[\"account\", \"accounts\", \"wallet\", \"wallets\"]"
-msgstr ""
+msgstr "[\"帳號\", \"多個帳號\", \"錢包\", \"多個錢包\"]"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:7
