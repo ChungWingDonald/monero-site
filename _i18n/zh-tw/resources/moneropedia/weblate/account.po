@@ -20,7 +20,7 @@ msgstr ""
 #: ../_i18n/en/resources/moneropedia/account.md:1
 #, no-wrap
 msgid "similar in function to a bank account, contains all of your sent and received transactions"
-msgstr "其功能類似於銀行帳戶，用於保存並記錄所有已發送與已接收的交易"
+msgstr "其功能與銀行帳戶差不多，可以用於保存並記錄所有已發送與已接收的交易"
 
 #. type: YAML Front Matter: terms
 #: ../_i18n/en/resources/moneropedia/account.md:1
@@ -31,34 +31,34 @@ msgstr "[\"帳號\", \"多個帳號\", \"錢包\", \"多個錢包\"]"
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:7
 msgid "{% include disclaimer.html translated=\"no\" translationOutdated=\"no\" %}"
-msgstr ""
+msgstr ""{% include disclaimer.html translated=\"否\" translationOutdated=\"否\" %}""
 
 #. type: Title ###
 #: ../_i18n/en/resources/moneropedia/account.md:8
 #, no-wrap
 msgid "The Basics"
-msgstr ""
+msgstr "基本資料"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:11
 msgid "Those familiar with Monero's predecessors will be more familiar with the term *wallet* to describe this. In Monero we call this an account, and it is a private account owned and operated by a Monero user."
-msgstr ""
+msgstr "對於以前用過 Monero 前身的人，可能比較習慣用「錢包」來形容這個功能。但在現今的Monero世界裡，我們叫它為「帳戶」，而且它是每個使用者所擁有和管理的私人帳戶。"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:13
 msgid "Your account contains all of the Monero @transactions you have sent and received. Your account balance is a sum of all the Monero you've received, less the Monero you've sent. When using Monero you may notice that your account has two balances, a locked and an unlocked balance. The unlocked balance contains funds that can be spent immediately, and the locked balance contains funds that you can't spend right now. You may receive a transaction that has an @unlock-time set, or you may have sent some Monero and are waiting for the @change to come back to your wallet, both situations that could lead to those funds being locked for a time."
-msgstr ""
+msgstr "你的帳戶含有你所有已發送與已接收到的 Monero 交易。帳戶餘額是你收到的 Monero 減去你已發送的 Monero 總和數。在使用 Monero 時，你可能會注意到帳戶有兩種餘額值：可用餘額與鎖定餘額。可用餘額代表你可以立即使用的資金；鎖定餘額則代表你暫時無法動用的資金。而造成資金被鎖定的原因，有可能是因為你收到一筆設有解鎖時間（unlock-time）的交易，或是你剛發送的Monero，正在等待找回零錢（change）到你的錢包而導致的。"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:15
 msgid "A key difference between traditional electronic currency and Monero is that your account resides only under your control, normally on your computer, and cannot be accessed by anyone else if you [practice good security](#practicing-good-security)."
-msgstr ""
+msgstr "傳統的電子貨幣與 Monero 的關鍵差別在於：你的帳戶完全由你自己一手掌控，一般儲存在你的電腦上；而只要你能做足良好的安全保護措施，其他人絕對沒有辨法得到存取的權限。"
 
 #. type: Title ###
 #: ../_i18n/en/resources/moneropedia/account.md:16
 #, no-wrap
 msgid "Multiple Accounts"
-msgstr ""
+msgstr "多個帳號"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:19
@@ -68,39 +68,39 @@ msgstr ""
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:21
 msgid "This means that individuals can easily create a Monero account for themselves as well as a joint account to share with their partner, and individual accounts for their children. Similarly, a business could create separate accounts for each division or group. Since Monero's @transaction fees are quite low, moving funds between accounts is not an expensive exercise."
-msgstr ""
+msgstr "這又代表著，每個人可以輕鬆地建立一個獨有的 Monero 帳號，也可以與伴侶共用一個聯合帳號，甚至為孩子們建立個別帳號。同樣地，企業也可以為每個部門或團隊建立一個獨立帳號。由於 Monero 的交易手續費極其低，每一次在帳號與帳號之間轉移資金並不昂貴。"
 
 #. type: Title ###
 #: ../_i18n/en/resources/moneropedia/account.md:22
 #, no-wrap
 msgid "Cryptographic Keys"
-msgstr ""
+msgstr "加密鑰匙"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:25
 msgid "Monero relies heavily on a cryptography principle known as *public/private key cryptography* or *asymmetric cryptography*, which is thoroughly detailed in [this Wikipedia article](https://en.wikipedia.org/wiki/Public-key_cryptography)."
-msgstr ""
+msgstr "Monero 主要依賴一種稱為公鑰/私鑰的密碼學技術（public/private key cryptography），又可以稱為非對稱的式密碼學（asymmetric cryptography）；詳細內容可參考這篇維基百科的文章(https://en.wikipedia.org/wiki/Public-key_cryptography)"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:27
 msgid "Your account is based on two keys, a @spend-key and a @view-key. The @spend-key is special in that it is the single key required to spend your Monero funds, whereas the @view-key allows you to reveal your @transactions to a third party, for example for auditing or accounting purposes. These keys in your account also play an important role in Monero's @transaction's privacy."
-msgstr ""
+msgstr "你的帳號是建立在兩把金鑰之上：@spend-key 與 @view-key。@spend-key 特別之處在於它是花費你 Monero 資金所需的唯一鑰匙；而 @view-key 則能讓你將交易紀錄揭露給其他人，例如用於審計或會計用途。這些帳戶鑰匙同時在 Monero 交易的隱私特性上扮演重要角色。"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:29
 msgid "The private keys for both of these must be protected by you in order to retain your account privacy. On the other hand, the public keys are obviously public (they are part of your Monero account address). For normal public/private key cryptography someone could send you a private message by encrypting it with either of your public keys, and you would then be the only one able to decrypt it with your private keys."
-msgstr ""
+msgstr "你一定要保護好這兩組私鑰，才能維持帳號的隱私性。相反，公鑰是公開的（它們是你 Monero 帳號地址的一部分）。在一般的公私鑰密碼學技術中，其他人可以用你的任何一種公鑰來加密訊息，而只有你能用對應的私鑰來解密。"
 
 #. type: Title ###
 #: ../_i18n/en/resources/moneropedia/account.md:30
 #, no-wrap
 msgid "Backing Up Your Account"
-msgstr ""
+msgstr "帳號備份"
 
 #. type: Plain text
 #: ../_i18n/en/resources/moneropedia/account.md:33
 msgid "When you manage your own Monero Account with the private @spend-key, you are solely responsible for the security of your funds. Thankfully, Monero makes it very easy to backup your account. When creating a Monero account for the first time you will be given a unique @mnemonic-seed for your account that consists of 13 or 25 words in the language of your choosing. **This seed is the only thing you need to backup for your account**, and so it is imperative that it is written down and stored securely.  Never store this seed in a form or location that would allow someone else to see it!"
-msgstr ""
+msgstr "當你用私人的 @spend-key 來管理自己的 Monero 帳號時，你必須自己全權負責帳號資金的安全。感恩的是，Monero 提供了十分簡單的備份方式。當你初次建立 Monero 帳號時，系統會根據你所選擇的語言來給你一組獨特的 @mnemonic-seed，它由 13 或 25 個詞𢑥組成。**這些詞𢑥是唯一你需要為你的帳號而記下的事**而這些東西務必要用手寫在紙上並好好保存下來，絕不能把它儲存在其他人可以輕易地看到的地方！"
 
 #. type: Fenced code block
 #: ../_i18n/en/resources/moneropedia/account.md:34
